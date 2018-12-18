@@ -11,6 +11,7 @@ import { Tab1PageModule } from '../tab1/tab1.module';
 import { Tab2PageModule } from '../tab2/tab2.module';
 import { Tab3PageModule } from '../tab3/tab3.module';
 import { HomePageModule } from '../home/home.module';
+import { SetupPageModule } from '../setup/setup.module';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { HomePageModule } from '../home/home.module';
     Tab1PageModule,
     Tab2PageModule,
     Tab3PageModule,
-    HomePageModule
+    HomePageModule,
+    SetupPageModule
   ],
   declarations: [TabsPage]
 })

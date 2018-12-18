@@ -6,6 +6,7 @@ import { Tab1Page } from '../tab1/tab1.page';
 import { Tab2Page } from '../tab2/tab2.page';
 import { Tab3Page } from '../tab3/tab3.page';
 import { HomePage } from '../home/home.page';
+import { SetupPage } from '../setup/setup.page';
 
 const routes: Routes = [
   {
@@ -31,6 +32,11 @@ const routes: Routes = [
         path: 'home',
         outlet: 'home',
         component: HomePage
+      },
+      {
+        path: 'setup',
+        outlet: 'setup',
+        component: SetupPage
       }
     ]
   },
